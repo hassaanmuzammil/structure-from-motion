@@ -1,0 +1,5 @@
+pypylon==1.7.4
+opencv-contrib-python==4.5.4.60
+matplotlib==3.5.0
+plotly==5.4.0
+numpy==1.21.4
