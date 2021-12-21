@@ -1,7 +1,7 @@
 # structure-from-motion
 
-Date: 19/12/21                                   
-Author: Hassaan Muzammil
+**Date: 19/12/21**                             
+**Author: Hassaan Muzammil**
 
 For monocular/stereo image capture, run the following command:                                         
 ```
