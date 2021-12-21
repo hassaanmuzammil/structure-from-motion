@@ -5,7 +5,7 @@ Author: Hassaan Muzammil
 
 For monocular/stereo image capture, run the following command:                      
 This will create a <monocular/stereo>_ images folder where the frames are saved.                  
-Make sure to get the serial number of the basler cams working.
+Make sure to get the serial number of the basler cams working.                    
 ```python3 <monocular/stereo>_capture.py```                                           
 
   
