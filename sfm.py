@@ -1,6 +1,8 @@
 import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
+import sys
+from getopt import getopt
 import os
 import glob
 from utils import *
@@ -120,17 +122,18 @@ def structure_from_motion(file_directory):
     return points_3d
 
 if __name__ == "__main__":
-    # sys args
+    # Fetch arguments
     argv = sys.argv[1:]
-    short_options = "i"
-    long_otions = ["images"]
+    # Define options
+    short_options = "p"
+    long_options = ["path="]
     try:
-        options, args = getopt.getopt(argv, short_options, long_options)
+        arguments, values = getopt(argv, short_options, long_options)
     except:
         print("Error loading arguments")
-
-    for current_argument, current_value in options:
-        if current_argument in ['-i', '--images']:
+    # Store required arguments
+    for current_argument, current_value in arguments:
+        if current_argument in ['-p', '--path']:
             path = current_value
     # Run      
     structure_from_motion(path)
