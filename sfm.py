@@ -120,7 +120,7 @@ def structure_from_motion(file_directory):
     return points_3d
 
 if __name__ == "__main__":
-    # Run
+    # sys args
     argv = sys.argv[1:]
     short_options = "i"
     long_otions = ["images"]
@@ -132,5 +132,5 @@ if __name__ == "__main__":
     for current_argument, current_value in options:
         if current_argument in ['-i', '--images']:
             path = current_value
-            
+    # Run      
     structure_from_motion(path)
