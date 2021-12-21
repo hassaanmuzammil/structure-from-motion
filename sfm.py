@@ -121,4 +121,16 @@ def structure_from_motion(file_directory):
 
 if __name__ == "__main__":
     # Run
-    structure_from_motion('./sfm_images/2/')
+    argv = sys.argv[1:]
+    short_options = "i"
+    long_otions = ["images"]
+    try:
+        options, args = getopt.getopt(argv, short_options, long_options)
+    except:
+        print("Error loading arguments")
+
+    for current_argument, current_value in options:
+        if current_argument in ['-i', '--images']:
+            path = current_value
+            
+    structure_from_motion(path)
