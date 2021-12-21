@@ -23,12 +23,9 @@ python3 sfm.py --path=<images_folder>
 ```                               
 
 
-Pipeline Evaluation
+### Pipeline Evaluation
+<img width="720" height="720" alt="Screenshot 2021-12-21 at 13 52 19" src="https://user-images.githubusercontent.com/52124348/146900413-885f7649-b860-4b1e-911b-9dd74d63fce7.png">
+<img width="720" height="720"alt="Screenshot 2021-12-21 at 13 53 50" src="https://user-images.githubusercontent.com/52124348/146900632-f1861e48-ffb1-4da1-9b5e-fb81b0583b6a.png">
+<img width="720" height="720" alt="Screenshot 2021-12-21 at 13 54 45" src="https://user-images.githubusercontent.com/52124348/146900751-3de13d4f-d5bd-4ef6-9610-bac788150277.png">
 
-Image Undistortion
-![Figure_1](https://user-images.githubusercontent.com/52124348/146899997-bc4a4c6e-dffd-4cd1-a2e8-002c048a075c.png)
-Dense Feature Matching
-![Figure_2](https://user-images.githubusercontent.com/52124348/146900054-34a47965-c6b1-4b4c-b35f-4c225cc8daa5.png)
-Scaled Reconstruction
-![Figure_3](https://user-images.githubusercontent.com/52124348/146898848-0e58baae-1088-48e2-ad61-8d097aae34c6.png)
 
