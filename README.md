@@ -27,5 +27,7 @@ python3 sfm.py --path=<images_folder>
 <img width="720" height="720"alt="Screenshot 2021-12-21 at 13 53 50" src="https://user-images.githubusercontent.com/52124348/146900632-f1861e48-ffb1-4da1-9b5e-fb81b0583b6a.png">
 <img width="720" height="720" alt="Screenshot 2021-12-21 at 13 54 45" src="https://user-images.githubusercontent.com/52124348/146900751-3de13d4f-d5bd-4ef6-9610-bac788150277.png">
 
+** Note: The 3D point cloud has a tilt as described in https://publications.aston.ac.uk/id/eprint/42346/1/09345528.pdf
+
 **Date: 19/12/21**                             
 **Author: Hassaan Muzammil**
