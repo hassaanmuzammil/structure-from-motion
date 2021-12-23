@@ -2,6 +2,11 @@
 
 ### The purpose of this exercise is to 3D reconstruct a road surface using 2D images acquired from Basler cams. The algorithm used is SfM.
 
+Installing dependencies
+```
+pip install -r requirements.txt
+```
+
 For monocular/stereo image capture, run the following command:                                         
 ```
 python3 <monocular/stereo>_capture.py
