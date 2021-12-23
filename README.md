@@ -1,6 +1,6 @@
 # structure-from-motion
 
-### The purpose of this exercise is to reconstruct a road surface using SfM.
+### The purpose of this exercise is to 3D reconstruct a road surface using 2D images acquired from Basler cams. The algorithm used is SfM.
 
 For monocular/stereo image capture, run the following command:                                         
 ```
