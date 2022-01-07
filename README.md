@@ -4,7 +4,7 @@
 
 Installing dependencies
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 For monocular/stereo image capture, run the following command:                                         
